@@ -1,0 +1,149 @@
+<!--App was tested using Google Chrome, designed in VScode-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assignment-03.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1 id = "heading">Assignment 3</h1>
+
+    <table id = "MainTable">
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+            <th>Assignment 1</th>
+            <th>Assignment 2</th>
+            <th>Assignment 3</th>
+            <th>Assignment 4</th>
+            <th>Assignment 5</th>
+            <th id ="grade">Percent Grade (%)</th>
+        </tr>
+
+        <tr id="first">
+            <td id="left">Timothy Gross</td>
+            <td id="left">4543</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="second">
+            <td id="left">Gilbert Balckman</td>
+            <td id="left">0494</td>
+            <td id ="num" contenteditable="true">30</td>
+            <td id ="num" contenteditable="true">4</td>
+            <td id ="num" contenteditable="true">45</td>
+            <td id ="num" contenteditable="true">67</td>
+            <td id ="num" contenteditable="true">14</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="first">
+            <td id="left">Ron Wesley</td>
+            <td id="left">7954</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num" contenteditable="true">70</td>
+            <td id ="num" contenteditable="true">54</td>
+            <td id ="num" contenteditable="true">97</td>
+            <td id ="num" contenteditable="true">37</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="second">
+            <td id="left">Derek Rooney</td>
+            <td id="left">1354</td>
+            <td id ="num" contenteditable="true">90</td>
+            <td id ="num" contenteditable="true">56</td>
+            <td id ="num" contenteditable="true">78</td>
+            <td id ="num" contenteditable="true">57</td>
+            <td id ="num" contenteditable="true">67</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="first">
+            <td id="left">Lesley Black</td>
+            <td id="left">0974</td>
+            <td id ="num" contenteditable="true">89</td>
+            <td id ="num" contenteditable="true">90</td>
+            <td id ="num" contenteditable="true">93</td>
+            <td id ="num" contenteditable="true">64</td>
+            <td id ="num" contenteditable="true">59</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="second">
+            <td id="left">Andy Rickman</td>
+            <td id="left">9854</td>
+            <td id ="num" contenteditable="true">78</td>
+            <td id ="num" contenteditable="true">2</td>
+            <td id ="num" contenteditable="true">-</td>
+            <td id ="num" contenteditable="true">9</td>
+            <td id ="num" contenteditable="true">11</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="first">
+            <td id="left">James King</td>
+            <td id="left">1097</td>
+            <td id ="num" contenteditable="true">78</td>
+            <td id ="num" contenteditable="true">68</td>
+            <td id ="num" contenteditable="true">87</td>
+            <td id ="num" contenteditable="true">45</td>
+            <td id ="num" contenteditable="true">12</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="second">
+            <td id="left">Martin Grey</td>
+            <td id="left">6942</td>
+            <td id ="num" contenteditable="true">69</td>
+            <td id ="num" contenteditable="true">42</td>
+            <td id ="num" contenteditable="true">6</td>
+            <td id ="num" contenteditable="true">89</td>
+            <td id ="num" contenteditable="true">100</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="first">
+            <td id="left">Aoife Dunne</td>
+            <td id="left">9821</td>
+            <td id ="num" contenteditable="true">38</td>
+            <td id ="num" contenteditable="true">42</td>
+            <td id ="num" contenteditable="true">95</td>
+            <td id ="num" contenteditable="true">12</td>
+            <td id ="num" contenteditable="true">67</td>
+            <td id ="num">-</td>
+        </tr>
+
+        <tr id="second">
+            <td id="left">Phil Davis</td>
+            <td id="left">4680</td>
+            <td id ="num" contenteditable="true">89</td>
+            <td id ="num" contenteditable="true">14</td>
+            <td id ="num" contenteditable="true">76</td>
+            <td id ="num" contenteditable="true">70</td>
+            <td id ="num" contenteditable="true">89</td>
+            <td id ="num">-</td>
+        </tr>
+        </table>
+
+        <span id="buttons"><button onclick="addRow()">Add New Row</button>
+        <button onclick="addCol()">Add New Column</button>
+        <button onclick="saveButton()">Save</button>
+        <button onclick="restoreButton()">Restore</button></span>
+
+
+        <p id = "unsubmitted"></p>
+
+    <script src="assignment-03.js"></script>
+</body>
+</html>
